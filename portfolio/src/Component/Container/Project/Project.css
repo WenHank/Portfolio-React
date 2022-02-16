@@ -1,0 +1,27 @@
+.Projectobject{
+    margin-bottom: 30px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.carousel{
+    margin-top: 50px;
+    width: 800px;
+    border: solid white 5px;
+    border-radius: 3px;
+}
+.carousel img{
+    height: 300px;
+}
+.Title{
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 0 0 50px #51ceee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 10px;
+}

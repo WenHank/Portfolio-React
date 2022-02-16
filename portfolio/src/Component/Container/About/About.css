@@ -1,0 +1,13 @@
+.Aboutobject{
+    margin-bottom: 60px;
+}
+.Title{
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 0 0 50px #51ceee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 10px;
+}

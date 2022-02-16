@@ -1,0 +1,7 @@
+.FooterContainer{
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
