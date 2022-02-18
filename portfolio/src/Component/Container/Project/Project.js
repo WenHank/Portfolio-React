@@ -8,29 +8,30 @@ function ProjectCarousel(params) {
   return (
     <Carousel>
       <Carousel.Item>
-        <img className="d-block w-100" src="./Img/1.JPG" alt="First slide" />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
+        <img className="d-block w-100" src="./Img/DSV1.png" alt="First slide" />
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src="./Img/2.JPG" alt="Second slide" />
-
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
+        <img
+          className="d-block w-100"
+          src="./Img/DSV2.png"
+          alt="Second slide"
+        />
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src="./Img/3.JPG" alt="Third slide" />
-
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
+        <img className="d-block w-100" src="./Img/DSV3.png" alt="Third slide" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src="./Img/DSV4.png" alt="First slide" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="./Img/DSV5.png"
+          alt="Second slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src="./Img/DSV6.png" alt="Third slide" />
       </Carousel.Item>
     </Carousel>
   );
@@ -73,9 +74,24 @@ function Project() {
           <h1>Project</h1>
         </div>
       </TitleContainer>
-      <ProjectCarousel />
-      <ProjectCarousel />
-      <ProjectCarousel />
+      <Card className="ProjectCard">
+        <ProjectCarousel />
+        <Card.Body>
+          <h2 className="titleChange">D.S.V</h2>
+          <Card.Title className="ProjectCardLittleTitle">Purpose</Card.Title>
+          <h6>
+            By visualizing data, users can fully understand how the data
+            structure works.
+          </h6>
+          <Card.Title className="ProjectCardLittleTitle">Tool</Card.Title>
+          <div className="ProjectCardTool">
+            <img src="https://img.icons8.com/offices/64/000000/php-logo.png" />
+            <img src="https://img.icons8.com/color/30/000000/pug.png" />
+            <img src="https://img.icons8.com/color/48/000000/mongodb.png" />
+          </div>
+          <Button variant="secondary">See it on GitHub</Button>
+        </Card.Body>
+      </Card>
     </div>
   );
 }

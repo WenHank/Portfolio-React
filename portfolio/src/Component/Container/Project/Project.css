@@ -7,7 +7,6 @@
     align-items: center;
 }
 .carousel{
-    margin-top: 50px;
     width: 800px;
     border: solid white 5px;
     border-radius: 3px;
@@ -24,4 +23,34 @@
     align-items: center;
     background-color: white;
     margin-bottom: 10px;
+}
+.ProjectCard{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    width: 60%;
+    margin: 30px 30px;
+    box-shadow: #e74efc 0 0 30px;
+}
+.ProjectCard .card-body{
+    display: flex;
+    flex-direction: column;
+}
+.card-body h6 {
+    display: flex;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.ProjectCardLittleTitle{
+    display: flex;
+    text-align: left;
+}
+.ProjectCardTool{
+    display: flex;
+    justify-content: start;
+}
+.card-body button{
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 28%;
 }

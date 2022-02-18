@@ -42,6 +42,42 @@ function About() {
           <h1>About</h1>
         </div>
       </TitleContainer>
+      <Card style={{ width: "500px" }} className="MyselfCard">
+        <Card.Body className="MyselfCardBody">
+          <img className="MyselfImg" src="./Img/wen.jpg" />
+          <div>
+            <Card.Title className="MyselfCardTitle">
+              Name:{" "}
+              <Card.Subtitle className="mb-2 text-muted">Wen</Card.Subtitle>
+            </Card.Title>
+            <Card.Title className="MyselfCardTitle">
+              Graduate:{" "}
+              <Card.Subtitle className="mb-2 text-muted">YZU</Card.Subtitle>
+            </Card.Title>
+            <Card.Title className="MyselfCardTitle">
+              Email:{" "}
+              <Card.Subtitle className="mb-2 text-muted">
+                hanklovemrs30@gmail.com
+              </Card.Subtitle>
+            </Card.Title>
+            <Card.Title className="MyselfCardTitle">
+              Skill:{" "}
+              <Card.Subtitle className="mb-2 text-muted">
+                <img src="https://img.icons8.com/plasticine/100/000000/react.png" />
+              </Card.Subtitle>
+              <Card.Subtitle className="mb-2 text-muted">
+                <img src="https://img.icons8.com/fluency/48/000000/node-js.png" />
+              </Card.Subtitle>
+              <Card.Subtitle className="mb-2 text-muted">
+                <img src="https://img.icons8.com/color/48/000000/mongodb.png" />
+              </Card.Subtitle>
+              <Card.Subtitle className="mb-2 text-muted">
+                <img src="https://img.icons8.com/ios/50/000000/mysql-logo.png" />
+              </Card.Subtitle>
+            </Card.Title>
+          </div>
+        </Card.Body>
+      </Card>
     </div>
   );
 }
